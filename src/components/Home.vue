@@ -23,7 +23,7 @@
           :collapse="isCollapse"
           :collapse-transition="false"
           router
-          :default-active="activePath"
+          :default-active="'/'+activePath"
         >
           <el-submenu :index="item.id.toString()" v-for="item in menuList" :key="item.id">
             <!-- 这个是一级菜单 -->
