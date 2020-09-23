@@ -33,7 +33,7 @@
             </template>
             <!-- 二级菜单 -->
             <el-menu-item
-              :index="subItem.path"
+              :index="'/'+subItem.path"
               v-for="subItem in item.children"
               :key="subItem.id"
               @click="saveNameState(subItem.path)"

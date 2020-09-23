@@ -13,7 +13,7 @@ body,
 }
 
 .el-card {
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) !important; 
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) !important;
 }
 
 .el-table {
@@ -26,7 +26,7 @@ body,
     height: 300px;
 }
 
-.el-cascader-node{
+.el-cascader-node {
     position: relative;
 }
 
@@ -37,4 +37,16 @@ body,
     opacity: 0;
     left: 0;
     top: 0;
+}
+
+.el-steps {
+    margin: 15px 0;
+}
+
+.el-step__title {
+    font-size: 13px;
+}
+
+.ql-editor {
+    min-height: 300px;
 }

@@ -1,0 +1,7 @@
+用到的依赖：
+
+- vue-quill-editor
+- axios
+- element-ui
+- vue-table-with-tree-grid
+- lodash
