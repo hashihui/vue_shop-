@@ -3,6 +3,11 @@
 - vue-quill-editor
     - 这个包是用来做富文本编辑的
     - 直接 npm i vue-quill-editor
+    - 导入
+        - import VueQuillEditor from 'vue-quill-editor'
+        - import 'quill/dist/quill.core.css'
+        - import 'quill/dist/quill.snow.css'
+        - import 'quill/dist/quill.bubble.css'
 - axios
     - 这个包用作异步的ajax操作
     - 直接 npm i axios
@@ -33,3 +38,15 @@
     - 用来绘制图表
     - 安装
         - npm i echarts
+
+
+## 项目的优化
+### 项目优化策略
+    > 生成打包报告
+    > 第三方库启用CDN
+    > Element-ui 组件的按需加载
+    > 路由的懒加载
+    > 首页内容定制
+
+- 利用 nprogress 添加进度条效果
+    - npm i nprogress

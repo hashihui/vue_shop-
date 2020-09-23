@@ -196,7 +196,7 @@ export default {
           v.attr_vals = v.attr_vals.length === 0 ? [] : v.attr_vals.split(',')
           v.checkList = v.attr_vals
         })
-        console.log(res.data)
+        // console.log(res.data)
         this.manyTableData = res.data
       } else if (this.activeIndex === '2') {
         const { data: res } = await this.$http.get(
@@ -226,7 +226,7 @@ export default {
       const filePath = file.response.data.tmp_path
       const index = this.addForm.pics.findIndex((x) => x.pic === filePath)
       this.addForm.pics.splice(index, 1)
-      console.log(this.addForm)
+      // console.log(this.addForm)
     },
     // 监听图片上传成功
     handleSuccess(response) {

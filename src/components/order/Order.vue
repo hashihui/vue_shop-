@@ -114,7 +114,7 @@ export default {
         params: this.queryInfo
       })
 
-      console.log(res)
+      // console.log(res)
       if (res.meta.status !== 200) {
         return this.$message.error('获取列表失败')
       }
@@ -143,7 +143,7 @@ export default {
         return this.$message.error('获取物流信息失败')
       }
 
-      console.log(res.data)
+      // console.log(res.data)
       this.process = res.data
     }
   }

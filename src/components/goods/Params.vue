@@ -362,7 +362,7 @@ export default {
         const { data: res } = await this.$http.delete(
           `categories/${this.cateId}/attributes/${deleteInfo.attr_id}`
         )
-        console.log(res)
+        // console.log(res)
         if (res.meta.status !== 200) {
           return this.$message.error('删除失败')
         }
